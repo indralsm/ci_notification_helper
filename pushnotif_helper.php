@@ -66,7 +66,7 @@ function pushmail($to,$subject,$data){
 				  'newline' => "\r\n"
 				));
 
-				$ci->email->from('no-reply@hyd-ant.co.id', 'e-Permit PT. JBG - No Reply'); //Email From
+				$ci->email->from('email@yourdomain.com', 'Your Name'); //Email From
 				$ci->email->to($to);  //Email Tujuan
 				$ci->email->subject($subject);
 				//Content Email
