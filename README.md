@@ -1,4 +1,5 @@
 # ci_notification_helper
+CI Notification for Android Push Notif from Firebase and Email Config
 
 installation
 1. copy this file and save to your_ci_project\Application\helper\
